@@ -69,7 +69,7 @@ def validate_support_files():
     """Check if support files exist"""
     print("Checking: Support files...")
 
-    required_files = ["progress.md", "README.md"]
+    required_files = ["progress.md"]
     missing = []
 
     for filename in required_files:

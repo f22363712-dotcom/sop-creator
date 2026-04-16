@@ -158,7 +158,6 @@ Checks:
    - Create `progress.md` template
    - Create `errors.log` template
    - Create `BLOCKED.md` template
-   - Create `README.md` with usage instructions
 
 ### Validation Gateway
 **Script:** `scripts/validate_generation.py`
@@ -167,7 +166,6 @@ Checks:
 - [ ] SOP markdown file exists
 - [ ] All gateway scripts exist and are executable
 - [ ] progress.md template exists
-- [ ] README.md exists
 - [ ] All placeholders replaced
 
 ### Exit Conditions
@@ -303,7 +301,6 @@ Checks:
 
 ```
 {output_directory}/
-├── README.md                 # Usage instructions
 ├── {workflow_name}_sop.md    # Main SOP document
 ├── progress.md               # Progress tracking template
 ├── errors.log                # Error log template

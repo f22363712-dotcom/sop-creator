@@ -94,7 +94,7 @@ fi
 echo ""
 echo "Checking: Support files..."
 
-REQUIRED_FILES=("progress.md" "README.md")
+REQUIRED_FILES=("progress.md")
 
 for file in "${REQUIRED_FILES[@]}"; do
     if [ -f "$file" ]; then
